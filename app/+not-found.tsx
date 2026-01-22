@@ -2,13 +2,13 @@ import { Link, Stack } from 'expo-router';
 import { StyleSheet, View } from 'react-native';
 
 export default function NotFound() {
-    return (
+  return (
     <>
-    <Stack.Screen options={{ title: 'Oops! Not found'}} />
-    <View style={styles.container}>
-      <Link href="/" style={styles.button}>Go back to Home screen!</Link>
-    </View>
-  </>
+      <Stack.Screen options={{ title: 'Oops! Not found' }} />
+      <View style={styles.container}>
+        <Link href="/" style={styles.button}>Go back to Home screen!</Link>
+      </View>
+    </>
   );
 }
 
